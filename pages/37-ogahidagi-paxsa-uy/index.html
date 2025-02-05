@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khiva.uz</title>
+    <link rel="stylesheet" href="../source/pages.css">
+    <link rel="icon"
+        href="https://avatars.mds.yandex.net/i?id=bceb5ca8dbe4b717d4ec8273c81b789900a80b27-10680870-images-thumbs&n=13">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+   
+
+    <nav class="navbar navbar-expand-lg navbar-dark border-bottom position-sticky top-0 bg-dark text-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">Khiva.uz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../../index.html"><i
+                                class="fa-solid fa-house"></i> Bosh sahifa</a>
+                    </li>
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-building"></i> Imorat
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i
+                                        class="fa-solid fa-building-circle-arrow-right"></i> Kurilish materiallari
+                                    (sh)</a></li>
+                            <li><a class="dropdown-item" href="#"><i
+                                        class="fa-solid fa-building-circle-arrow-right"></i> Bosh fasadi</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#mundareja"><i class="fa-solid fa-infinity"></i> Barcha ma’lumotlar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-globe fa-bounce"></i> UZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true"><i class="fa-solid fa-phone-volume"></i> +998
+                            99 939 99
+                            33</a>
+                    </li>
+                </ul>
+              
+
+            </div>
+        </div>
+    </nav>
+ 
+    <div id="imorot-bosh-info" class="mb-4 mt-4 my-xxl-5">
+        <div class="container py-5 shadow px-md-5 bg-con">
+            <h1 class="h2 text-center mb-5">
+                "OGAHIYDAGI PAXSA UY"
+            </h1>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h1 class="h5">1. Me’moriy inshootning nomi:</h1>
+                </div>
+                <div class="col">
+                    <p>“OGAHIYDAGI PAXSA UY”</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h1 class="h5">2. Me’moriy inshoot tiklangan yil:</h1>
+                </div>
+                <div class="col">
+                    <p>1900 yilda qurilgan.</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h1 class="h5">3. Me’moriy inshoot joylashgan manzil:</h1>
+                </div>
+                <div class="col">
+                    <p>Xiva shahri Ogahiy j/x, Eski Qiyot mahallasida joylashgan</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h1 class="h5">4. Me’moriy inshootning qurilish materiallari:</h1>
+                </div>
+                <div class="col">
+                    <p>Paxsa, guvala, xom g‘isht,  qum, alebastr-ganch, yog‘och</p>
+                </div>
+            </div>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <h1 class="h5">5. Inshootning bosh fasadi h.k.lar:</h1>
+                </div>
+                <div class="col">
+                    <div class="section-imgs">
+                        <img src="photo/22.1.jpg" alt="" class="build-img " onclick="openModal(this)">
+                    </div> 
+                    <div id="modal" class="modal" onclick="closeModal()">
+                        <span class="close">&times;</span>
+                        <img id="modal-img" class="modal-content">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 mt-3">
+                <div class="col">
+                    <h1 class="h5">6. Me’moriy inshootning o‘lchamlari</h1>
+                </div>
+                <div class="col">
+                    <p>Chingiztepa majmuasida 3ta tepalik bo‘lib, diametri 60m; 21m; 30m.</p>
+                </div>
+            </div>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <h1 class="h5">7. Me’moriy inshoot to‘g‘risida tarixiy ma’lumot:</h1>
+                </div>
+                <div class="col">
+                    <p>
+                        Chingiztepa  nomida 3 ta tepalik tadqiq qilingan. Chingiztepa-1 – Katta Chingiztepa deb ham ataladi. Yodgorlik konussimon shakldagi tepalik bo‘lib, balandligi 18 m.ni tashkil etadi. Aylanasi yuqori qismida 20 m, asosida esa 60 m. Chingiztepa-2  – Chingiztepa-1 yodgorligidan 300 m shimolda joylashgan aylana shakldagi tepalik. Aylanasi 21 m, balandligi esa 3.5 m ni tashkil etadi. Chingiztepa-2 yodgorligi asosan mayda tosh aralash sariq tuproqdan tiklangan. Chingiztepa-3 – Katta Chingiztepadan 3 km janubiy-g‘arbda joylashgan. Bu tepalik ham qo‘rg‘on shaklida bo‘lib, diametri 30 m, balandligi 3 m. Topilgan sopol buyumlar mil. avv. IV-II asrlarga taalluqli.
+                        Afsonaga ko‘ra, Chingizxon Amudaryoni kechib o‘tganidan keyin o‘z askarlariga bir qism tuproqdan tashlab ketishni buyuradi. Shu tariqa Katta tepalik paydo bo‘ladi. Xorazmni zabt etganidan keyin orqaga qaytishda askarlariga yana bir bor bir qism tuproqdan tashlashni buyuradi. Ana shundan keyin Kichik tepalik vujudga keladi.</p>
+                </div>
+            </div>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <h1 class="h5">8. Me’moriy inshootning texnik holati:</h1>
+                </div>
+                <div class="col">
+                    <p>Yer ustki qism 90% devor konstruksiyalari ekologik va texnogen ta’sirlar natijasida yo‘qolib ketgan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-center text-white py-2 mt-xxl-5 py-xxl-5">
+        <h1 class="h4">&copy; 2025 Khiva uz barcha huquqlar himoyolangan</h1>
+    </footer>
+    <script src="../../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../source/pages.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khiva.uz</title>
+    <link rel="stylesheet" href="../source/pages.css">
+    <link rel="icon"
+        href="https://avatars.mds.yandex.net/i?id=bceb5ca8dbe4b717d4ec8273c81b789900a80b27-10680870-images-thumbs&n=13">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+   
+
+    <nav class="navbar navbar-expand-lg navbar-dark border-bottom position-sticky top-0 bg-dark text-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">Khiva.uz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../../index.html"><i
+                                class="fa-solid fa-house"></i> Bosh sahifa</a>
+                    </li>
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-building"></i> Imorat
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i
+                                        class="fa-solid fa-building-circle-arrow-right"></i> Kurilish materiallari
+                                    (sh)</a></li>
+                            <li><a class="dropdown-item" href="#"><i
+                                        class="fa-solid fa-building-circle-arrow-right"></i> Bosh fasadi</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#mundareja"><i class="fa-solid fa-infinity"></i> Barcha ma’lumotlar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-globe fa-bounce"></i> UZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true"><i class="fa-solid fa-phone-volume"></i> +998
+                            99 939 99
+                            33</a>
+                    </li>
+                </ul>
+              
+
+            </div>
+        </div>
+    </nav>
+ 
+    <div id="imorot-bosh-info" class="mb-4 mt-4 my-xxl-5">
+        <div class="container py-5 shadow px-md-5 bg-con">
+            <h1 class="h2 text-center mb-5">
+                "DOSH QAL’A-1 KARVONSAROYI"
+            </h1>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h1 class="h5">1. Me’moriy inshootning nomi:</h1>
+                </div>
+                <div class="col">
+                    <p>"DOSH QAL’A-1 KARVONSAROYI"</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h1 class="h5">2. Me’moriy inshoot tiklangan yil:</h1>
+                </div>
+                <div class="col">
+                    <p>mil.av. II – mil. VIII asrlarga oid.</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h1 class="h5">3. Me’moriy inshoot joylashgan manzil:</h1>
+                </div>
+                <div class="col">
+                    <p>Xorazm viloyati Tuproqqal’a tumanida  joylashgan.</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h1 class="h5">4. Me’moriy inshootning qurilish materiallari:</h1>
+                </div>
+                <div class="col">
+                    <p>Xom g‘isht, paxsa - guvala, qum, yog‘och</p>
+                </div>
+            </div>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <h1 class="h5">5. Inshootning bosh fasadi h.k.lar:</h1>
+                </div>
+                <div class="col">
+                    <div class="section-imgs">
+                        <img src="photo/photo_2025-01-20_21-06-00.jpg" alt="" class="build-img " onclick="openModal(this)">
+                    </div> 
+                    <div id="modal" class="modal" onclick="closeModal()">
+                        <span class="close">&times;</span>
+                        <img id="modal-img" class="modal-content">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 mt-3">
+                <div class="col">
+                    <h1 class="h5">6. Me’moriy inshootning o‘lchamlari</h1>
+                </div>
+                <div class="col">
+                    <p>O‘lchami 100x85metrni tashkil etadi,</p>
+                </div>
+            </div>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <h1 class="h5">7. Me’moriy inshoot to‘g‘risida tarixiy ma’lumot:</h1>
+                </div>
+                <div class="col">
+                    <p>Doshqal’a -1 yodgorligi Xorazm Ma’mun akademiyasi tarkibida “Janubiy Xorazmning eng qadimgi va qadimgi madaniyati” va “Xorazm aholisining diniy urf-odatlari, marosimlari va dinlari tarixi” mavzularidagi loyihalar asosida Xazarasp tumani hududida  amalga oshirilayotgan arxeologik tadqiqotlar shaharsozlik madaniyatiga doir ko‘plab yangi ma’lumotlarni berdi. Antik davrda urbanizatsiya jarayonlarini va chegara shaharlarini tadqiq qilishda Doshqal’a-1 yodgorligidan olingan ma’lumotlarning ahamiyati juda kattadir. 
+                        Kirish qismi sharqiy devor markazida joylashgan ushbu yodgorlikning mudofaa devori toshdan qurilgan. Bu yerda olib borilgan qazishmalar natijasida yodgorlikning yaxshi saqlangan mudofaa tizimi bilan birga qadimgi yog‘och bostirmalar qoldiqlari topildi. Yodgorlikda ibodatxona majmuasi bo‘lib, antik davrda Xorazm diniy anan’alarining rivojlanish dinamikasiga doir ilmiy muammolarni yangicha yondashuv asosida tadqiq qilishni talab etadi.  Yodgorlikni ta’mirlashda  uning mutlaq sanasi, stratigrafiyasi (madaniy qatlamlarning joylashishi), tipologik tuzilishi hamda mudofaa inshootlariga oid masalalar juda muhim sanaladi.</p>
+                </div>
+            </div>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <h1 class="h5">8. Me’moriy inshootning texnik holati:</h1>
+                </div>
+                <div class="col">
+                    <p>Yer ustki qism 100% devor konstruksiyalari ekologik va texnogen ta’sirlar natijasida yo‘qolib ketgan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-center text-white py-2 mt-xxl-5 py-xxl-5">
+        <h1 class="h4">&copy; 2025 Khiva uz barcha huquqlar himoyolangan</h1>
+    </footer>
+    <script src="../../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../source/pages.js"></script>
+</body>
+
+</html>
